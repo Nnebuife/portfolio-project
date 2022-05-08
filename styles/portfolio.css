@@ -25,6 +25,9 @@ line-height: 2;
 .sub-title{font-family: var(--primary-font);
 text-align: center;}
 
+.active{color: var(--basic-colors) !important;}
+
+
 .hero{text-align: center; 
 }
 .hero p{font-family: var(--primary-font);
@@ -71,6 +74,8 @@ font-weight: bold;}
 .content-details p{font-size: 16px;
     font-family: var(--primary-font);
 line-height: 1.5;}
+
+a:hover{color: var(--branding-color) !important;}
 
 @media(max-width: 800px) {
     h2{font-size: 36px;}
