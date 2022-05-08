@@ -1,5 +1,6 @@
-:root{--branding-color:#fd9bcc;
+:root{--branding-color:#f1f0f0;
 --basic-colors: #6C63FF;
+--second-brand-color: #ffc0cb;
 --background-colours: #f9f7fe;
 --primary-font: 'Poppins', sans-serif;
 --grand-font: 'Playfair Display', serif;}
@@ -33,7 +34,7 @@ text-align: center;}
 .hero p{font-family: var(--primary-font);
     font-size: 36;
     font-weight: bold;
-padding:80px 0 0 0;}
+padding:60px 0 0 0;}
     
 .hero h3{font-family: var(--primary-font);
         font-size: 24;
@@ -45,10 +46,9 @@ padding:80px 0 0 0;}
     color: white;
     background: var(--basic-colors);
     font-family: var(--primary-font);
+    padding: 15px 30px;
     font-size: 18px;
-    max-width: max-content;
-    padding: 18px 30px;
-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .brand-content{
@@ -75,7 +75,37 @@ font-weight: bold;}
     font-family: var(--primary-font);
 line-height: 1.5;}
 
-a:hover{color: var(--branding-color) !important;}
+.inquire-section{ font-weight: 18px;
+    text-align: centre;
+   padding: 30px 120px;
+    margin: 20px;
+    border: 0.5 solid 5px;
+    background: var(--branding-color);}
+
+.contact-email{
+    text-align: center;
+    }
+
+.contact-email a{text-decoration: none;
+    line-height: 2;
+    font-weight: 30px;
+}
+
+.social-links i{
+    font-weight: 18px;
+    color: var(--basic-colors);
+    padding: 10px 12px;
+    line-height: 1.5;
+    margin: 20px;
+    border: 0.5 solid 5px;
+    border-radius:50%;
+    background: var(--branding-color);
+ 
+}
+
+nav .nav-item a:hover,
+footer .contact-email a:hover
+{color: var(--second-brand-color) !important;}
 
 @media(max-width: 800px) {
     h2{font-size: 36px;}
